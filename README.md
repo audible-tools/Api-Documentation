@@ -5,7 +5,7 @@ The aax api allows to obtain the 'activation bytes' for any audible aax file. th
 
 ## Best Practices
 
-- **Custom headers**
+- !!**Custom headers**!!
 	- Please use a custom [User-Agent](https://developer.mozilla.org/de/docs/Web/HTTP/Headers/User-Agent) and/or [Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin) (If not coming from the web -> Project site)
 	- This helps me evaluating where traffic comes from and making decisions based on that. Thanks! 
 - Validate the responses. 
