@@ -1,6 +1,9 @@
 
 # AAX Api Documentation
 
+(Also available on [ReDoc](https://aax.api.j-kit.me/ReDoc), [OpenApi json](https://aax.api.j-kit.me/swagger/v1/swagger.json))
+
+
 The aax api allows to obtain the 'activation bytes' for any audible aax file. those Activation bytes are basically the seed for the  en-/decryption keys to retreive raw m4b files.
 
 ## Best Practices
