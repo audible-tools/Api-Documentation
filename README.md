@@ -1,21 +1,6 @@
 
----
-title: AAX.ActivationService.Api_3 v1.0
-language_tabs:
-  - ruby: Ruby
-  - python: Python
-  - csharp: C#
-language_clients:
-  - ruby: ""
-  - python: ""
-  - csharp: ""
-toc_footers: []
-includes: []
-search: true
-highlight_theme: darkula
-headingLevel: 2
-
----
+Generated with https://github.com/Mermade/widdershins
+Better view: https://aax.api.j-kit.me/redoc/index.html
 
 <!-- Generator: Widdershins v4.0.0 -->
 
