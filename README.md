@@ -1,4 +1,5 @@
 
+
 Generated with https://github.com/Mermade/widdershins
 Better view: https://aax.api.j-kit.me/redoc/index.html
 
@@ -13,6 +14,9 @@ Better view: https://aax.api.j-kit.me/redoc/index.html
 ## Resolves
 
 > Code samples
+
+<details>
+<summary>ruby</summary>
 
 ```ruby
 require 'rest-client'
@@ -29,6 +33,11 @@ result = RestClient.get '/api/v1/Activation/{checksum}',
 p JSON.parse(result)
 
 ```
+</details>
+
+<details>
+<summary>python</summary>
+
 
 ```python
 import requests
@@ -41,6 +50,13 @@ r = requests.get('/api/v1/Activation/{checksum}', headers = headers)
 print(r.json())
 
 ```
+
+
+
+</details>
+
+<details>
+<summary>CSharp</summary>
 
 ```csharp
 using System;
@@ -99,6 +115,11 @@ public class HttpExample
 }
 
 ```
+
+
+</details>
+
+
 
 `GET /api/v1/Activation/{checksum}`
 
