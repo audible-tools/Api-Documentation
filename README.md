@@ -11,7 +11,7 @@ language_clients:
   - csharp: ""
 toc_footers: []
 includes: []
-search: false
+search: true
 highlight_theme: darkula
 headingLevel: 2
 
@@ -142,7 +142,7 @@ public class HttpExample
 This operation does not require authentication
 </aside>
 
-## get__api_v2_Activation_{checksum}
+## Resolve single activation bytes
 
 > Code samples
 
@@ -234,7 +234,7 @@ public class HttpExample
 
 `GET /api/v2/Activation/{checksum}`
 
-<h3 id="get__api_v2_activation_{checksum}-parameters">Parameters</h3>
+<h3 id="resolve-single-activation-bytes-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -253,7 +253,7 @@ public class HttpExample
 }
 ```
 
-<h3 id="get__api_v2_activation_{checksum}-responses">Responses</h3>
+<h3 id="resolve-single-activation-bytes-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
@@ -263,7 +263,7 @@ public class HttpExample
 This operation does not require authentication
 </aside>
 
-## Resolve activation bytes batched
+## Resolve batched activation bytes
 
 > Code samples
 
@@ -389,7 +389,7 @@ public class HttpExample
 }
 ```
 
-<h3 id="resolve-activation-bytes-batched-parameters">Parameters</h3>
+<h3 id="resolve-batched-activation-bytes-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
@@ -410,13 +410,13 @@ public class HttpExample
 ]
 ```
 
-<h3 id="resolve-activation-bytes-batched-responses">Responses</h3>
+<h3 id="resolve-batched-activation-bytes-responses">Responses</h3>
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Success|Inline|
 
-<h3 id="resolve-activation-bytes-batched-responseschema">Response Schema</h3>
+<h3 id="resolve-batched-activation-bytes-responseschema">Response Schema</h3>
 
 Status Code **200**
 
